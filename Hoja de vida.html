@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="funciones.js"></script>
+        <link rel="stylesheet" href="estilo.css"></link>
+        <title>Hoja de vida :v</title>
+    </head>
+    <body>
+        <center><tr>
+            <center><td><label><font face="pacifico" size="24"><br><br>Hoja de vida :v </label></font><td></center>
+            </tr></center>
+        <br><br>
+		<center><tr>
+                <td><label>¿Que deseas hacer?: </label><td>
+                <td><input type="radio" name="op" id="ho1" onclick="visualizar('1')">Mostrar Hoja de vida 1</input></td>
+                <td><input type="radio" name="op" id="ho2" onclick="visualizar('2')">Mostrar Hoja de vida 2</input></td>
+        </tr></center>
+		<br><br>
+        <form id="horario" method="post">
+				<div id="hoja1" style="display: none">
+                <center><table border="1">    
+                        <tr>
+                            <td><label>Nombre completo: </label></td>
+                            <td>Christian Munar Benitez</td>
+                            <td rowspan="3"><img src="https://avatar.onlinesoccermanager.com/69301641v1.png"></img></td>
+                        </tr>
+                        <tr>
+                            <td><label>Fecha de nacimiento: </label></td>
+                            <td>19/04/2000</td>
+                        </tr>
+                        <tr>
+                            <td><label>Lugar de nacimiento: </label></td>
+                            <td>Bogotá, Colombia</td>
+                        </tr>
+                        <tr>
+                            <td><label>Estudios: </label></td>
+                            <td colspan="2">Primaria (Luis Carlos Galán Sarmiento)<br>Bachillerato (Liceo Pichincha) </td>
+                        </tr>
+                        <tr>
+                            <td><label>Habilidades: </label></td>
+                            <td colspan="2">Programar<br>Analizar Datos</td>
+                        </tr>
+                        <tr>
+                            <td><label>Intereses: </label></td>
+                            <td colspan="2">Inteligencia Artificial<br>Fútbol<br>Hombres </td>
+                        </tr>
+                </table></center>
+				</div>
+				<div id="hoja2" style="display: none">
+                <center><table border="1">    
+                        <tr>
+                            <td><label>Nombre completo: </label></td>
+                            <td>Esteban Quintero Amaya</td>
+                            <td rowspan="3"><img src="https://es.onlinesoccermanager.com/Images/Icons/avatar_empty.jpg"></img></td>
+                        </tr>
+                        <tr>
+                            <td><label>Fecha de nacimiento: </label></td>
+                            <td>30/08/2000</td>
+                        </tr>
+                        <tr>
+                            <td><label>Lugar de nacimiento: </label></td>
+                            <td>Santa Marta, Colombia</td>
+                        </tr>
+                        <tr>
+                            <td><label>Estudios: </label></td>
+                            <td colspan="2">Primaria-Bachillerato (Colegio Santa Luisa)</td>
+                        </tr>
+                        <tr>
+                            <td><label>Habilidades: </label></td>
+                            <td colspan="2">Programar<br>Tocar Piano</td>
+                        </tr>
+                        <tr>
+                            <td><label>Intereses: </label></td>
+                            <td colspan="2">Bases de Datos<br>Fútbol</td>
+                        </tr>
+                </table></center>
+				</div>
+        </form>
+    </body>
+</html>
